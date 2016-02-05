@@ -1,8 +1,8 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 19
-    buildToolsVersion "23.0.1"
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
 
     defaultConfig {
         applicationId "com.example.com.emotiv.eeglogger"
@@ -19,6 +19,7 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:19.1.0'
+    compile 'com.android.support:support-v4:23.1.1'
+    compile 'com.jakewharton:butterknife:7.0.1'
     compile files('libs/bedk.jar')
 }
